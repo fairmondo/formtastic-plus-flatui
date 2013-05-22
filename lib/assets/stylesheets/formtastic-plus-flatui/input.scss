@@ -1,8 +1,8 @@
-@import 'flat-ui/config';
-@import 'flat-ui/mixins';
 
 form.formtastic fieldset.inputs > ol > li.string.input > input[type="text"],
 form.formtastic fieldset.inputs > ol > li.password.input > input[type="password"],
+form.formtastic fieldset.inputs > ol > li.email.input > input[type="email"],
+form.formtastic fieldset.inputs > ol > li.url.input > input[type="url"],
 form.formtastic fieldset.inputs > ol > li.text.input > textarea,
 form.formtastic fieldset.inputs > ol > li.number.input > input[type="number"], {
 
