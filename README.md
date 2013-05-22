@@ -10,6 +10,7 @@ Have following scss imports with this:
     @import 'flat-ui/modules/type'; //if you want to have the basic styles (for us it crashed our layout)
     @import 'flat-ui/modules/demo'; // if you need the demo css for some reason
 	@import 'flat-ui/modules/footer'; // if you want the flat-ui footer
+	@import 'flat-ui/modules/pagination'; // if you want to use the pagination
     @import "formtastic-plus-flatui";
   
 Gemfile:
