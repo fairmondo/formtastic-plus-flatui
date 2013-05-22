@@ -5,9 +5,19 @@ Have following scss imports with this:
     @import "bootstrap-without-forms";
     @import "formtastic-plus-bootstrap";
     @import "font-awesome";
-    @import "flat-ui";
     @import "formtastic-plus-flatui";
   
+Gemfile:
+
+    gem 'formtastic'
+
+    group :assets do
+      gem 'sass-rails',   '~> 3.2.3'
+      gem "font-awesome-rails"
+      gem "formtastic-plus-bootstrap"
+      gem "formtastic-plus-flatui"
+      gem "flatui-rails"
+    end
 
 == Contributing to formtastic-plus-flatui
  
