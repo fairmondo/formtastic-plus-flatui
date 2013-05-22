@@ -5,7 +5,11 @@ Have following scss imports with this:
     @import "bootstrap-without-forms";
     @import "formtastic-plus-bootstrap";
     @import "font-awesome";
+    
     @import 'flat-ui/config'; //use default config or swap with custom https://github.com/pkurek/flatui-rails/blob/master/vendor/assets/stylesheets/flat-ui/_config.sass
+    @import 'flat-ui/modules/type'; //if you want to have the basic styles (for us it crashed our layout)
+    @import 'flat-ui/modules/demo'; // if you need the demo css for some reason
+	@import 'flat-ui/modules/footer'; // if you want the flat-ui footer
     @import "formtastic-plus-flatui";
   
 Gemfile:
