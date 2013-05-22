@@ -5,6 +5,7 @@ Have following scss imports with this:
     @import "bootstrap-without-forms";
     @import "formtastic-plus-bootstrap";
     @import "font-awesome";
+    @import 'flat-ui/config'; //use default config or swap with custom https://github.com/pkurek/flatui-rails/blob/master/vendor/assets/stylesheets/flat-ui/_config.sass
     @import "formtastic-plus-flatui";
   
 Gemfile:
