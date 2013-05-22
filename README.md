@@ -3,10 +3,15 @@ formtastic-plus-flatui
 Have following scss imports with this:
 
   `@import "bootstrap-without-forms";
+  
   @import "formtastic-plus-bootstrap";
+  
   @import "font-awesome";
+  
   @import "flat-ui";
+  
   @import "formtastic-plus-flatui";`
+  
 
 == Contributing to formtastic-plus-flatui
  
