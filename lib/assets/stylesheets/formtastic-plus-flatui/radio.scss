@@ -1,0 +1,59 @@
+@import 'flat-ui/config';
+@import 'flat-ui/mixins';
+@import 'bootstrap/mixins';
+
+.formtastic > fieldset > ol > li.radio > fieldset.choices > ol.choices-group > li.choice > label {
+
+  
+  @include user-select(none);
+
+  input {
+    outline: none !important;
+    margin-right: 15px !important;
+   
+  }
+  
+  input:before {
+      font-family: 'Flat-UI-Icons-16';
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 1.5em;
+      text-decoration: inherit;
+      -webkit-font-smoothing: antialiased;
+      content: "\F111";
+      color: #FFFFFF;
+  
+  }
+  
+   input:after {
+      font-family: 'Flat-UI-Icons-16';
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 1.5em;
+      text-decoration: inherit;
+      -webkit-font-smoothing: antialiased;
+      content: "\F10C";
+      color: $firm;
+      position:relative; 
+      left:-16px; 
+  }
+  
+
+  input:checked:after {
+    content: "\F058";
+  }
+  // Disabled state
+  input:disabled:after {
+    color: scale-color($gray, $lightness: 62%);
+    cursor: default;
+    
+  }
+  
+  
+}
+
+
+
+

@@ -1,0 +1,29 @@
+@import 'flat-ui/config';
+@import 'flat-ui/mixins';
+
+form.formtastic > fieldset.inputs > ol > li.string.input > input[type="text"],
+form.formtastic > fieldset.inputs > ol > li.password.input > input[type="password"],
+form.formtastic > fieldset.inputs > ol > li.text.input > textarea,
+form.formtastic > fieldset.inputs > ol > li.number.input > input[type="number"], {
+
+  border: 2px solid scale-color($base, $lightness: 85%);
+  color: $base  ;
+  font-family: $base-font-family ;
+  font-size: $base-font-size ;
+  padding: 8px 0 9px 10px ;
+  text-indent: 1px;
+  @include border-radius(6px);
+  @include box-shadow(none);
+  @include placeholder-color(desaturate(scale-color($base, $lightness: 60%), 15%));
+
+  &:focus{
+    border-color: $firm ;
+    @include box-shadow(none);
+    }
+  
+  li.error & {
+     border-color: $danger ;
+     color: $danger ;
+  }  
+  
+}
