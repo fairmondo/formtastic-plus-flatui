@@ -2,7 +2,7 @@
 @import 'flat-ui/mixins';
 @import 'bootstrap/mixins';
 
-.formtastic > fieldset > ol > li.radio > fieldset.choices > ol.choices-group > li.choice > label {
+form.formtastic fieldset.inputs > ol > li.radio > fieldset.choices > ol.choices-group > li.choice > label {
 
   
   @include user-select(none);

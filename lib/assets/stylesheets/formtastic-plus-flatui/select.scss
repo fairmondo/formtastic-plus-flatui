@@ -1,10 +1,10 @@
 
 
-form.formtastic > fieldset.inputs > ol > li.input.select > select ,
-form.formtastic > fieldset.inputs > ol > li.input.time_zone > select,
-form.formtastic > fieldset.inputs > ol > li.input.date_select > fieldset.fragments > ol.fragments-group > li.fragment > select ,
-form.formtastic > fieldset.inputs > ol > li.input.datetime_select > fieldset.fragments > ol.fragments-group > li.fragment > select,
-form.formtastic > fieldset.inputs > ol > li.input.time_select > fieldset.fragments > ol.fragments-group > li.fragment > select  {
+form.formtastic fieldset.inputs > ol > li.input.select > select ,
+form.formtastic fieldset.inputs > ol > li.input.time_zone > select,
+form.formtastic fieldset.inputs > ol > li.input.date_select > fieldset.fragments > ol.fragments-group > li.fragment > select ,
+form.formtastic fieldset.inputs > ol > li.input.datetime_select > fieldset.fragments > ol.fragments-group > li.fragment > select,
+form.formtastic fieldset.inputs > ol > li.input.time_select > fieldset.fragments > ol.fragments-group > li.fragment > select  {
   background: $firm ;
   color: $inverse;
   @include border-radius(6px);

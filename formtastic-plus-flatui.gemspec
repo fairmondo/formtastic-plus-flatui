@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name = "formtastic-plus-flatui"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.authors = ["Andreas Knöpfle"]
   s.email = "andi@fairnopoly.de"
   s.summary = "formtastic meets bootstrap and flat-ui with font-awesome"
-  s.description = "formtastic-plus-flatui"
-  
+  s.description = "Integration of flat-ui with formtastic with the help of font-awesome, bootstrap and formtastic-plus-bootstrap."
+  s.homepage    = 'https://github.com/fairnopoly/formtastic-plus-flatui'
 
   s.add_runtime_dependency "railties", ">= 3.1.0"
   s.add_runtime_dependency "sass-rails"
@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "font-awesome-rails"
   s.add_runtime_dependency "formtastic-plus-bootstrap"
 
-  s.files = Dir["lib/**/*"] + ["README.rdoc", "LICENSE.txt"]
+  s.files = Dir["lib/**/*"] + ["README.md", "LICENSE.txt"]
 end

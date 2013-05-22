@@ -2,8 +2,8 @@
 @import 'flat-ui/mixins';
 @import 'bootstrap/mixins';
 
-.formtastic > fieldset > ol > li.boolean > label ,
-.formtastic > fieldset > ol > li.check_boxes > fieldset.choices > ol.choices-group > li.choice  {
+form.formtastic fieldset.inputs > ol > li.boolean > label ,
+form.formtastic fieldset.inputs > ol > li.check_boxes > fieldset.choices > ol.choices-group > li.choice  {
   @include user-select(none);
 
   input {
