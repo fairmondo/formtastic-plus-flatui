@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "formtastic-plus-flatui"
   s.version = "0.0.8"
-  s.authors = ["Andreas Knöpfle"]
+  s.authors = ["Fairnopoly eG"]
   s.email = "andi@fairnopoly.de"
   s.summary = "formtastic meets bootstrap and flat-ui with font-awesome"
   s.description = "Integration of flat-ui with formtastic with the help of font-awesome, bootstrap and formtastic-plus-bootstrap."
