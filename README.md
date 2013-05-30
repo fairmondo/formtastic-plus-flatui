@@ -37,6 +37,6 @@ Gemfile:
 
 == Copyright
 
-Copyright (c) 2013 Andreas Knöpfle. See LICENSE.txt for
+Copyright (c) 2013 Fairnopoly eG. See LICENSE.txt for
 further details.
 
